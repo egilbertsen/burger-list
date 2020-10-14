@@ -1,0 +1,9 @@
+<div class = "burger-bar">
+	{{name}}
+
+	<button class="change-eaten" data-id="{{id}}" data-neweaten="{{eaten}}">
+		{{#if eaten}}Add to "To Eat" List{{else}}Mark as Eaten{{/if}}
+	</button>
+
+	<button class="delete-burger" data-id="{{this.id}}">Delete</button>
+</div>
